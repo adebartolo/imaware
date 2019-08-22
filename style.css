@@ -1,0 +1,312 @@
+body {
+  padding-bottom: 0px;
+  margin: 0;
+  overflow: hidden;
+  font-family: arial;
+  font-size: 20px;
+}
+/**{ border: 1px solid red; } */
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: arial;
+  font-size: 20px;
+}
+li {
+  float: left;
+  font-family: arial;
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+li:hover {
+  color:darkgray;
+}
+.material-icons:hover {
+  color:gray;
+}
+.navbutton:hover {
+  color:gray;
+}
+p {
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
+}
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  ont-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  radius: 10px;
+  border-radius: 12px
+}
+/* Create four equal columns that floats next to each other */ 
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  margin-bottom: 0px;
+  height: 750px; /* Should be removed. Only for demonstration */
+  text-align: center;
+  letter-spacing: 1px;
+}
+.buttona {
+  background-color: white; /* Green */
+  border: black;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 1px 1px;
+  border: 2px  black;
+  border-radius: 5px;
+  width: 400px;
+}
+.buttonb {
+  background-color: white; /* Green */
+  border: black;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 1px 1px;
+  border: 2px  black;
+  border-radius: 5px;
+  width: 400px;
+}
+.buttonc {
+  background-color: white; /* Green */
+  border: black;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 1px 1px;
+  border: 2px  black;
+  border-radius: 5px;
+  width: 400px;
+}
+.buttona:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.buttona:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: red;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.buttona:hover, .buttona:focus, .buttona:active {
+  color: white;
+}
+.buttona:hover:before, .buttona:focus:before, .buttona:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.buttonb:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.buttonb:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: blue;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.buttonb:hover, .buttonb:focus, .buttonb:active {
+  color: white;
+}
+.buttonb:hover:before, .buttonc:focus:before, .buttonc:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}  
+.buttonc:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.buttonc:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: green;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.buttonc:hover, .buttonc:focus, .buttonc:active {
+  color: white;
+}
+.buttonc:hover:before, .buttonc:focus:before, .buttonc:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*  .buttonb:hover {
+border-right: 3px solid blue;
+border-bottom: 3px solid blue;
+}
+.buttonc:hover {
+border-right: 3px solid green;
+border-bottom: 3px solid green;
+}*/
+.carousel {
+  bottom: 30px;
+  margin-top: 0px;
+  height: 300px;
+}
+.row:after {
+  overflow: hidden;
+  display: none;
+}
+h3 {
+  text-align: center;
+  width: 98%;
+  display: inline-block;
+  font-family: arial;
+  font-size: 20px;
+}
+.nav {
+  background: #232323;
+  height: 60px;
+  display: inline-block;
+}
+.navbar-fixed li a:hover {
+  background-color: white;
+  color:black;
+  position:relative;
+}
+.linkclass:hover {
+  color: white;
+}
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.material-icons {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white
+}
+.material-icons:hover {
+  color: white;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-family: arial;
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: #686868;
+  color: white;
+}
+.brand-logo {
+  border-radius: 3px;
+  color: white;
+  padding-right:20px
+}
+.brand-logo:hover {
+  border-radius: 3px;
+  color: #686868;
+  padding-right:20px
+}
+.brand-logo {
+  background: black;
+  font-family: arial;
+  font-size: 20px;
+}
+.hide-on-med-and-down {
+  background: black;
+  font-family: arial;
+  font-size: 20px;
+}
+.nav-wrapper{
+  background: black;
+}
+.navbar-fixed {
+  background: black;
+}
